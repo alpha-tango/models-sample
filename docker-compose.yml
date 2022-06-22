@@ -1,0 +1,325 @@
+version: '3.8'
+services:
+  scantliemab-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemab-model_id
+    - target: model_name
+      source: scantliemab-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemab-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabaa-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabaa-model_id
+    - target: model_name
+      source: scantliemabaa-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabaa-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabab-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabab-model_id
+    - target: model_name
+      source: scantliemabab-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabab-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabac-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabac-model_id
+    - target: model_name
+      source: scantliemabac-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabac-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabad-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabad-model_id
+    - target: model_name
+      source: scantliemabad-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabad-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabae-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabae-model_id
+    - target: model_name
+      source: scantliemabae-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabae-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabaf-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabaf-model_id
+    - target: model_name
+      source: scantliemabaf-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabaf-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabag-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabag-model_id
+    - target: model_name
+      source: scantliemabag-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabag-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabah-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabah-model_id
+    - target: model_name
+      source: scantliemabah-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabah-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabai-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabai-model_id
+    - target: model_name
+      source: scantliemabai-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabai-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabaj-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabaj-model_id
+    - target: model_name
+      source: scantliemabaj-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabaj-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabak-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabak-model_id
+    - target: model_name
+      source: scantliemabak-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabak-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabal-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabal-model_id
+    - target: model_name
+      source: scantliemabal-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabal-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemabam-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemabam-model_id
+    - target: model_name
+      source: scantliemabam-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemabam-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+  scantliemaban-prod:
+    build: .
+    secrets:
+    - target: model_id
+      source: scantliemaban-model_id
+    - target: model_name
+      source: scantliemaban-model_name
+    - target: public_id
+      source: public_id
+    - target: secret_key
+      source: secret_key
+    volumes:
+    - data-scantliemaban-prod:/data
+    - data-shared:/data-shared
+    - data-submissions:/data-submissions
+    - ./data-external:/data-external
+volumes:
+  data-scantliemab-prod:
+  data-scantliemabaa-prod:
+  data-scantliemabab-prod:
+  data-scantliemabac-prod:
+  data-scantliemabad-prod:
+  data-scantliemabae-prod:
+  data-scantliemabaf-prod:
+  data-scantliemabag-prod:
+  data-scantliemabah-prod:
+  data-scantliemabai-prod:
+  data-scantliemabaj-prod:
+  data-scantliemabak-prod:
+  data-scantliemabal-prod:
+  data-scantliemabam-prod:
+  data-scantliemaban-prod:
+  data-shared:
+  data-submissions:
+secrets:
+  scantliemab-model_id:
+    file: secrets/scantliemab-model_id.txt
+  scantliemab-model_name:
+    file: secrets/scantliemab-model_name.txt
+  scantliemabaa-model_id:
+    file: secrets/scantliemabaa-model_id.txt
+  scantliemabaa-model_name:
+    file: secrets/scantliemabaa-model_name.txt
+  scantliemabab-model_id:
+    file: secrets/scantliemabab-model_id.txt
+  scantliemabab-model_name:
+    file: secrets/scantliemabab-model_name.txt
+  scantliemabac-model_id:
+    file: secrets/scantliemabac-model_id.txt
+  scantliemabac-model_name:
+    file: secrets/scantliemabac-model_name.txt
+  scantliemabad-model_id:
+    file: secrets/scantliemabad-model_id.txt
+  scantliemabad-model_name:
+    file: secrets/scantliemabad-model_name.txt
+  scantliemabae-model_id:
+    file: secrets/scantliemabae-model_id.txt
+  scantliemabae-model_name:
+    file: secrets/scantliemabae-model_name.txt
+  scantliemabaf-model_id:
+    file: secrets/scantliemabaf-model_id.txt
+  scantliemabaf-model_name:
+    file: secrets/scantliemabaf-model_name.txt
+  scantliemabag-model_id:
+    file: secrets/scantliemabag-model_id.txt
+  scantliemabag-model_name:
+    file: secrets/scantliemabag-model_name.txt
+  scantliemabah-model_id:
+    file: secrets/scantliemabah-model_id.txt
+  scantliemabah-model_name:
+    file: secrets/scantliemabah-model_name.txt
+  scantliemabai-model_id:
+    file: secrets/scantliemabai-model_id.txt
+  scantliemabai-model_name:
+    file: secrets/scantliemabai-model_name.txt
+  scantliemabaj-model_id:
+    file: secrets/scantliemabaj-model_id.txt
+  scantliemabaj-model_name:
+    file: secrets/scantliemabaj-model_name.txt
+  scantliemabak-model_id:
+    file: secrets/scantliemabak-model_id.txt
+  scantliemabak-model_name:
+    file: secrets/scantliemabak-model_name.txt
+  scantliemabal-model_id:
+    file: secrets/scantliemabal-model_id.txt
+  scantliemabal-model_name:
+    file: secrets/scantliemabal-model_name.txt
+  scantliemabam-model_id:
+    file: secrets/scantliemabam-model_id.txt
+  scantliemabam-model_name:
+    file: secrets/scantliemabam-model_name.txt
+  scantliemaban-model_id:
+    file: secrets/scantliemaban-model_id.txt
+  scantliemaban-model_name:
+    file: secrets/scantliemaban-model_name.txt
+  public_id:
+    file: secrets/public_id.txt
+  secret_key:
+    file: secrets/secret_key.txt
